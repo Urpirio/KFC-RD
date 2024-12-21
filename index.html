@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KFC</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -17,7 +24,7 @@
             <div class="header-section1-div1">
 
                 <div>
-                    <a href=""><h1>KFC</h1></a>
+                    <img src="./src/logo-kfc 2.0.png" alt="logo-kfc">
                 </div>
                 
                 <nav>
@@ -29,7 +36,7 @@
             </div>
 
             <div class="header-section1-div2">
-                <button><a href="">Iniciar Sesion</a></button>
+                <button><i class='bx bx-user'></i>Iniciar Sesion</button>
             </div>
 
         </section>
@@ -42,51 +49,52 @@
         <section class="main-section-Ubicacion" >
 
             <div class="main-section-Ubicacion-div1">
-                <h1>MENU</h1>
+                <h1>COMIENZA A ORDENAR, ELIGE EL CANAL DE PREFERENCIA</h1>
                 <p>¿Entrega a domicilio o vienes por él?</p>
             </div>
 
             <div class="main-section-Ubicacion-div2" >
 
-                <div>
-                    <button>Delivery</button>
-                    <button>Para Recoger</button>
+                <div class="main-section-btn-ub">
+                    <button class="btn-Delivery">Delivery</button>
+                    <button class="btn-recoger" >Para Recoger</button>
                 </div>
 
-                <div>
+                <div class="main-section-btn-ub2">
                     <h2>Escribe tu direccion</h2>
                     <div>
-                        <button></button>
-                        <input type="text" placeholder="Ingresa tu ubicacion">
+                        <button ><i class='bx bx-current-location' ></i></button>
+                        <input type="search" placeholder="Ingresa tu ubicacion">
                     </div>
                 </div>
 
-                <div>
-                    <a href=""></a>
+                <div class="main-section-btn-ub3">
+                    <a href=""><i class='bx bx-map-alt' ></i>Encuentra dirección en mapa</a>
                 </div>
 
             </div>
         </section>
 <!-- Section de imagen interna -->
         <section class="Section-promo-img">
-            <div class="Promo-img">
-
+            <div class="Promo-img" id="Promo-img">
+                <button id="Promo-img-btn4" ><i class='bx bx-caret-left bx-flip-vertical' ></i></button>
+                <button id="Promo-img-btn" ><i class='bx bx-caret-left bx-flip-horizontal' ></i></button>
             </div>
             
-            <div style="display: none;" class="Promo-img">
-
+            <div class="Promo-img" id="Promo-img2">
+                <button id="Promo-img-btn3" ><i class='bx bx-caret-left bx-flip-vertical' ></i></button>
+                <button id="Promo-img-btn2" ><i class='bx bx-caret-left bx-flip-horizontal' ></i></button>
             </div>
 
-            <div style="display: none;" class="Promo-img">
-
-            </div>
         </section>
 
 <!--Section de promociones-->
         <section class="main-section-loNuevo">
 
-            <div>
-                <h1>LO NUEVO</h1>
+            <div class="main-section-loNuevo-G-H1">
+                <div class="main-section-loNuevo-H1">
+                    <h1>PROMOCIONES</h1>
+                </div>
             </div>
             <!--Fila de productos se la section numero 1-->
             <div class="main-section-loNuevo-fila1">
@@ -95,28 +103,28 @@
 
                     <article class="main-section-loNuevo-Articule">
 
-                        <div>
-                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0delivery_129.png" alt="comida">
-                            <h3>N Comida</h3>
+                        <div class="article-LONUEVO">
+                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0pickup_131.png" alt="comida">
+                            <h3>BUCKETS NAVIDAD PARA 4</h3>
                         </div>
 
-                        <div>
-                            <p></p>
-                            <button>A carrito</button>
+                        <div class="btn-add-p">
+                            <p><span>RD</span>$1,200.00</p>
+                            <button><i class='bx bx-cart-download bx-flip-horizontal' ></i></button>
                         </div>
 
                     </article>
 
                     <article class="main-section-loNuevo-Articule" >
 
-                        <div>
-                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0delivery_126.png" alt="">
-                            <h3>N Comida</h3>
+                        <div class="article-LONUEVO" >
+                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0pickup_60.png" alt="">
+                            <h3>COMBO KENTUCKY CHICKEN SÁNDWICH CRISPY BBQ</h3>
                         </div>
 
-                        <div>
-                            <p></p>
-                            <button>A carrito</button>
+                        <div class="btn-add-p" >
+                            <p><span>RD</span>$525.00</p>
+                            <button><i class='bx bx-cart-download bx-flip-horizontal' ></i></button>
                         </div>
 
                     </article>
@@ -128,28 +136,28 @@
 
                     <article class="main-section-loNuevo-Articule" >
 
-                        <div>
-                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0delivery_143.png" alt="">
-                            <h3>N Comida</h3>
+                        <div class="article-LONUEVO" >
+                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0pickup_117.png" alt="">
+                            <h3>WOW BOX KRUNCHY</h3>
                         </div>
 
-                        <div>
-                            <p></p>
-                            <button>A carrito</button>
+                        <div class="btn-add-p" >
+                            <p><span>RD</span>$325.00</p>
+                            <button><i class='bx bx-cart-download bx-flip-horizontal' ></i></button>
                         </div>
 
                     </article>
 
                     <article class="main-section-loNuevo-Articule" >
 
-                        <div>
-                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/1T0delivery_57.png" alt="">
-                            <h3>N Comida</h3>
+                        <div class="article-LONUEVO" >
+                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0pickup_134.png" alt="">
+                            <h3>WOW BOX DUO</h3>
                         </div>
 
-                        <div>
-                            <p></p>
-                            <button>A carrito</button>
+                        <div class="btn-add-p" >
+                            <p><span>RD</span>$625.00</p>
+                            <button><i class='bx bx-cart-download bx-flip-horizontal' ></i></button>
                         </div>
 
                     </article>
@@ -161,10 +169,12 @@
 
 
 <!-- Section de los Exploras lo nuevo-->
-        <section class="main-Section-buckets">
+        <section class="main-Section-EX">
 
-            <div>
-                <h1>BUCKETS</h1>
+            <div class="main-section-EX-G-H1">
+                <div class="main-section-EX-H1">
+                    <h1>Explora nuestro menú</h1>
+                </div>
             </div>
 
             <!--Primera Fila de productos de la section numero 2-->
@@ -174,16 +184,16 @@
                 <div class="main-section-EX-fila-div" >
 
                     <article class="main-Section-EX-Articule">
-                        <div>
-                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0delivery_13.png" alt="">
-                            <h1>name</h1>
+                        <div class="article-EX" >
+                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0pickup_131.png" alt="">
+                            <h1>LO NUEVO</h1>
                         </div>
                     </article>
 
                     <article class="main-Section-EX-Articule" >
-                        <div>
-                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/1T0delivery_69.png" alt="">
-                            <h1>name</h1>
+                        <div class="article-EX">
+                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Section1T0pickup_2.png" alt="">
+                            <h1>buckets</h1>
                         </div>
                     </article>
 
@@ -194,17 +204,17 @@
                 <div class="main-section-EX-fila-div" >
 
                     <article class="main-Section-EX-Articule" >
-                        <div>
-                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0delivery_126.png" alt="">
-                            <h1>name</h1>
+                        <div class="article-EX">
+                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/1T0pickup_7.png" alt="">
+                            <h1>Para Compartir</h1>
                         </div>
                        
                     </article>
 
                     <article class="main-Section-EX-Articule" >
-                        <div>
-                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0delivery_129.png" alt="">
-                            <h1>name</h1>
+                        <div class="article-EX">
+                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0pickup_65.png" alt="">
+                            <h1>Big Boxes</h1>
                         </div>
                     </article>
 
@@ -212,9 +222,33 @@
 
             </div>
 
+            <section class="main-Section-EX-section"  >
+
+                <!--Parte 1 de la fila de productos numero 1 - Section numero 2 -->
+                <div class="main-section-EX-fila-section" >
+    
+                    <article class="main-Section-EX-Articule">
+                        <div class="article-EX" >
+                            <img src="https://kfgl.ofisistemas.com:8096/App/ImageStorage/Product1T0pickup_79.png" alt="">
+                            <h1>COMBOS</h1>
+                        </div>
+                    </article>
+    
+                    <article class="main-Section-EX-Articule" >
+                        <div class="article-EX">
+                            <img src="https://cdn.tictuk.com/defaultThemes/brands/kfc/assets/images/allCategories.png" alt="">
+                            <h1>Explorar Categorías</h1>
+                        </div>
+                    </article>
+    
+                </div>
+            </section>
         </section><!-- Final de la  Section de los buckets-->
-
+        
     </main>
-
+    <footer>
+        
+    </footer>
+<script src="index.js"></script>
 </body>
 </html>

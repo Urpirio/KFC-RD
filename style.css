@@ -1,0 +1,108 @@
+:root{
+   
+}
+body{
+    margin: 0;
+}
+header{
+    border-bottom: 2px solid black;
+}
+.header-section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header-section1-div1{
+    display: flex;
+    justify-content: space-between;
+    width: 15cm;
+    align-items: center;
+}
+.header-section1-div1 nav{
+    display: flex;
+    justify-content: space-around;
+    width: 8cm;
+}
+.main-section-Ubicacion{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.main-section-Ubicacion-div1{
+    height: 6cm;
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-section-Ubicacion-div2{
+    width: 50%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Promo-img{
+    height: 8cm;
+    background-color: beige;
+    border: 1px solid black;
+    background: url(https://cdn.tictuk.com/1697916718584870/banner_desktop_288c92a9-8bcb-957d-31df-a87479d43ae3.jpeg?a=d6e0b6cc-67fa-436e-285f-d5c06980b1b8);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main-section-loNuevo-fila1{
+    display: flex;
+    justify-content: space-around;
+}
+.main-section-loNuevo-fila-div{
+    height: 10cm;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+.main-section-loNuevo-Articule{
+    height: 8cm;
+    width: 7cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+.main-section-loNuevo-Articule img{
+    height: 100px;
+}
+.main-Section-EX-fila1{
+    display: flex;
+    justify-content: space-around;
+}
+.main-section-EX-fila-div{
+    height: 10cm;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+.main-Section-EX-Articule{
+    height: 6cm;
+    width: 8cm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+.main-Section-EX-Articule img{
+    height: 100px;
+}
